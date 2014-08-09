@@ -1,0 +1,68 @@
+body{
+  background: white;
+}
+#banner{
+  border: 2px black solid;
+  text-align: center;
+  font-size: 40px;
+  margin: 20px;
+  padding: 20px;
+}
+.buttons{
+  border:1px black solid;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+  /*text-align: justify;
+  right: auto;
+  left: auto;*/
+}
+.buttonString{
+  text-align: center;
+}
+#blogTitle{
+  font-size: 30px;
+  font-family: arial;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: underline;
+}
+.content{
+  border: 1px black solid;
+  margin-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: arial;
+  font-size: 16px;
+}
+#date {
+  margin-left: 80%;
+  font-size: 14px;
+  font-style: italic;
+}
+
+#older{
+  text-align: left;
+  display: inline;
+  margin-left: 23%
+}
+
+#newer{
+  text-align: right;
+  display: inline;
+  margin-left: 46%;
+}
+#footer{
+  margin-top: 20px;
+  border-top: 1px black solid;
+  text-align: center;
+  font-size: 10px;
+}
