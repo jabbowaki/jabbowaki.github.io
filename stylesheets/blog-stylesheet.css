@@ -75,10 +75,13 @@ body{
   text-align: center;
   font-size: 12px;
 }
-a{
+a:link{
   color: #2E2E2E;
+}
+a:hover{
+  color:#EBBE2A;
 }
 
 a:visited{
-  color: #393B3A;;
+  color: #051E63;
   }
