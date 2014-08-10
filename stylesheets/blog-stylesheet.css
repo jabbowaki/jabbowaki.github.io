@@ -5,11 +5,11 @@ body{
 #banner{
   border-bottom: 2px black solid;
   text-align: center;
-  font-size: 50px;
   font-variant: small-caps;
   font-weight: bold;
-  margin: 20px;
-  padding: 20px;
+  font-size: 40px;
+  margin: 10px;
+  padding: 5px;
   /*background-color: #212120;*/
   color:black;
 }
@@ -73,12 +73,12 @@ body{
   margin-top: 20px;
   border-top: 1px black solid;
   text-align: center;
-  font-size: 10px;
+  font-size: 12px;
 }
 a{
-  color: #393B3A;
-
+  color: #2E2E2E;
 }
-/*a:visited{
-  color: #F2D45A;;
-  }*/
+
+a:visited{
+  color: #393B3A;;
+  }
