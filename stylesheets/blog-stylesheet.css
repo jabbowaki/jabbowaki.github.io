@@ -46,10 +46,12 @@ body{
   width: 600px;
   margin-left: auto;
   margin-right: auto;
+  background-color: #BBBDBC;
+  opacity: .66;
   font-family: arial;
   font-size: 16px;
   text-decoration: #333;
-  background-color: #BBBDBC;
+  opacity: .8;
 }
 #date {
   margin-left: 80%;
