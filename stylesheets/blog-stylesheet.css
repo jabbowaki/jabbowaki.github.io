@@ -10,7 +10,6 @@ body{
   font-size: 40px;
   margin: 10px;
   padding: 5px;
-  /*background-color: #212120;*/
   color:black;
 }
 .buttons{
@@ -22,10 +21,7 @@ body{
   display: inline-block;
   margin-right: 10px;
   margin-left: 10px;
-  background-color: #26A386;
-  /*text-align: justify;
-  right: auto;
-  left: auto;*/
+  background-color: #00A69C;
 }
 .buttonString{
   text-align: center;
@@ -37,7 +33,45 @@ body{
   margin-top: 20px;
   text-decoration: underline;
 }
+.about{
+  border: 2px #276657 solid;
+  margin-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  width: 300px;
+  /*margin: 5%;*/
+  /*display: inline-block;*/
+  float:right;
+  margin-right: 225px;
+  background-color: #BBBDBC;
+  opacity: .66;
+  font-family: arial;
+  font-size: 16px;
+  text-decoration: #333;
+  opacity: .8;
+}
+.about h2{
+  text-decoration: underline;
+  text-align: center;
+}
 .content{
+  border: 2px #276657 solid;
+  margin-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #BBBDBC;
+  opacity: .66;
+  font-family: arial;
+  font-size: 16px;
+  text-decoration: #333;
+  opacity: .8;
+}
+#projectInfo{
   border: 2px #276657 solid;
   margin-top: 40px;
   padding-left: 20px;
@@ -57,6 +91,14 @@ img.center{
   display: block;
   margin-right: auto;
   margin-left: auto;
+}
+
+div.selfie img {
+  /*display: inline-block;*/
+  margin-top: 40px;
+  margin-left: 250px;
+  float: left;
+  margin-bottom: 40px;
 }
 #date {
   margin-left: 80%;
@@ -80,6 +122,7 @@ img.center{
   margin-top: 20px;
   border-top: 1px black solid;
   text-align: center;
+  display: block;
   font-size: 12px;
 }
 a:link{
