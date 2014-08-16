@@ -71,6 +71,28 @@ body{
   text-decoration: #333;
   opacity: .8;
 }
+.contact{
+  display: inline-block;
+  left: auto;
+  right:auto;
+}
+.contactbox{
+  border: 2px #276657 solid;
+  margin-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  width: 670px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #BBBDBC;
+  opacity: .66;
+  font-family: arial;
+  font-size: 16px;
+  text-decoration: #333;
+  opacity: .8;
+
+}
 #projectInfo{
   border: 2px #276657 solid;
   margin-top: 40px;
@@ -138,3 +160,28 @@ a:hover{
 a:visited{
   color: #051E63;
   }
+
+/*#wrapper{
+  text-align: center;
+  margin: 0px auto;
+  padding: 0px;
+  width: 96%;
+}
+@media screen and (min-width: 480px){
+  .content{
+
+  }
+  img{
+    width: 20.7906%;
+    height: auto;
+    float: left;
+    margin-left:21.477663230241%
+
+  }
+  .about {
+    width:39.3515358%;
+    float: right;
+    margin: right:19.1652470%;
+  }
+
+}*/
