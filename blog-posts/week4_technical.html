@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Lato|Playfair+Display+SC|Abril+Fatface' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet2.css"/>
+  <title>
+    Emily Owaki typing things
+  </title>
+</head>
+<body>
+  <div id="banner"><h1>Emily Owaki</h1>
+  </div>
+  <div class="buttonString">
+      <span class ="buttons"><a href="../index.html">About</a></span>
+      <span class ="buttons"><a href="#">Blog</a></span>
+      <span class ="buttons"><a href="../projects.html">Projects</a></span>
+      <span class ="buttons"><a href="../contact.html">Contact</a></span>
+  </div>
+  <div class="content">
+    <div id="blogTitle"><h3>T3: How to cycle</h3></div>
+    <span id="date">08/30/2014</span>
+      <p>Do you know what an enumerable is? It's a mouthful, if nothing else. To explain it simply, enumerables allow objects of a class to act differently. Today, we're going to take a look at <a href="http://ruby-doc.org/core-2.1.2/Enumerable.html#method-i-cycle">enumerable#cycle</a>.</p>
+
+      <p>Just based off the name, you can get an idea of how #cycle works. When you use #cycle on an array, it calls the block for each element and repeats it however long is specified. If you don't specify how many times to run it for, it will run forever. If you give it a negative number, it'll do nothing.</p>
+
+      <img src= "../stylesheets/micsublime.png" class= center>
+
+      <p>So let's test how this works. In the image above, I created an array called mic_check and then called #cycle on mic_check 3 times.  </p>
+
+      <img src="../stylesheets/micterminal.png" class=center>
+
+      <p> As hoped, the mic_check array was printed 3 times, demonstrating what it's like to listen to a band set up at a show. This could also be done by building a counter index that resets each time it runs the size of the collection -1 or by using an incrementer and modulo the size of the array(ex: 3.times {|x| puts mic_check[x% mic_check.size]}. But both of those methods sound messy and time consuming.</p>
+
+      <p>By itself, #cycle is pretty straightforward. But it can also be added to other methods, such as #reverse_each (which will run the cycle in reverse) or #map(which will cycle through the collection and place the results in an array). You can also attach it with #next, which produces the following result:</p>
+      <img src="../stylesheets/cyclenext.png" class= center>
+      <p>COOL, RIGHT?! If #each had been used with #next, it would have stopped after the first round, but with cycle you could just keep going forever and ever!
+        <br>**As a note though, you can't just stick next on with cycle, and for this example I made cycle_check = mic_check.cycle in order to get it to work properly.</p>
+
+    </div>
+</div>
+</body>
+<footer>
+  <p>
+    <div id="older"><a href="#">Older</a></div>
+    <div id="newer"><a href="#">Newer</a></div>
+  </p>
+  <div id="footer"><p>Copyright&copy 2014 - <a href=mailto:"emily.owaki@gmail.com">Emily Owaki</a></p></div>
+</footer>
