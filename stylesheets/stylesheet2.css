@@ -17,6 +17,7 @@ body{
   margin-right: 10px;
   margin-left: 10px;
 }
+
 .buttonString{
   text-align: center;
 }
@@ -98,6 +99,12 @@ img.center{
   display: block;
   margin-right: auto;
   margin-left: auto;
+}
+.photoCaption{
+  display:block;
+  text-align: center;
+  font-size: 12px;
+  margin-top: -10px;
 }
 
 
