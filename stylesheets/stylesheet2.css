@@ -107,6 +107,9 @@ img.center{
   margin-top: -10px;
 }
 
+.text_title{
+  text-decoration: underline;
+}
 
 #date {
   margin-left: 80%;
