@@ -110,6 +110,10 @@ img.center{
 .text_title{
   text-decoration: underline;
 }
+.middle_text{
+  text-align: center;
+
+}
 
 #date {
   margin-left: 80%;
