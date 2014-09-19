@@ -114,7 +114,13 @@ img.center{
   text-align: center;
 
 }
-
+code {
+  background-color: #C8C8C8
+}
+.code {
+  text-align: center;
+  background-color: #C8C8C8;
+}
 #date {
   margin-left: 80%;
   font-size: 14px;
