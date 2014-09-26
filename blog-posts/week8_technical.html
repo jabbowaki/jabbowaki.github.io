@@ -21,16 +21,16 @@
       <p>Earlier this year, I googled recursion. This is what resulted:</p>
       <img src="../stylesheets/recursive1.png" class=center>
 
-      <p>I totally didn&#8217t get it, and if you didn&#8217t either than this blog post is for you. There used to be a restaurant near my house when I was growing up, and we would often get takeout from them. They had a mirror on both the north and south wall, so you could see yourself looking at yourself looking at yourself. I remember staring at myself staring at myself staring at myself, which for the record, is a great way to keep a kid entertained. That&#8217s essentially a real world example of recursion.</p>
+      <p>I totally didn&#8217t get it, and if you didn&#8217t either than this blog post is for you. Chances are you've seen or used recursion without even realizing it. For example, there used to be a restaurant near my house when I was growing up, and we would often get takeout from there. The restaurant was shaped like a square, and two of the parallel walls were paneled with mirrors. I remember staring at myself staring at myself staring at myself, which for the record, is a great way to keep a kid entertained. That&#8217s essentially a real world example of recursion.</p>
 
-      <p>Recursion is used to solve something by calling itself. It&#8217s somewhat similar to a loop, except that instead of continuing a certain number of times, it will continue until a condition has been met. But when would we use recursion? We might use it to determine the sum of a factorial or to find the next number in fibonacci&#8217s sequence. </p>
+      <p>Recursion is used to solve something by calling itself. It&#8217s somewhat similar to a loop, except that instead of continuing a certain number of times, it will continue until a condition has been met. But when would we use recursion? We might use it to find the next number in fibonacci&#8217s sequence or to countdown. </p>
       <img src="../stylesheets/recursive2.jpg" class=center>
       <div class="photoCaption"><p>Not going to lie, saw an Xzibit meme on someone's blog
       <br> weeks ago and have been waiting to use one too.</div>
 
-      <p>The thing with recursive programming is that unless an end point or base case is specified, it will run forever, and will crash your program or browser. So it&#8217s important to make sure that is specified. Since ruby doesn&#8217t have an easy way to do factorials, such as (n!), I&#8217ll make one for example.</p>
+      <p>The important thing with recursive programming is that unless an end point (or base case) is specified, it will run forever, and will crash your program or browser. So it&#8217s crucial to make sure that is specified. Since ruby doesn&#8217t have an easy way to do factorials, such as (n!), I&#8217ll make one for example.</p>
       <img src ="../stylesheets/recursive3.png" class=center>
-      <p>The way this works is that it takes a number as an argument. Then it goes &#8220<em>hey bro, are you equal to 1? Nah? Okay, let&#8217s multiply you by one less of yourself. Bro, you equal to 1? Nah? Okay, lets...</em>&rdquo; on and on until it determines that the number is equal to one, as one is our specified break point.</p>
+      <p>The way this works is that it takes a number as an argument. Then it goes &#8220<em>hey Bro, are you equal to 1? Nah? Okay, let&#8217s multiply you by one less of yourself. Bro, you equal to 1? Nah? Okay, lets...</em>&rdquo; on and on until it determines that the number is equal to one, as one is our specified break point. Once the number is equal to once, it terminates. </p>
 
     </div>
 </div>
