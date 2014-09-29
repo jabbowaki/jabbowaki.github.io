@@ -29,25 +29,29 @@ body{
   text-decoration: underline;
 }
 .about{
-  width: 60.71%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 40px;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   margin: auto;
   text-decoration: #333;
   display: block;
 }
-.selfie{
-  /*display: inline-block;*/
-  display: block;
-  margin-top: 30px;
-  margin-right: 28.77%;
-  margin-left: 28.77%;
 
-}
 .about h2{
-  text-decoration: underline;
+  text-decoration: bold;
   text-align: center;
 
+}
+img.selfie{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
 }
 img.center{
   display: block;
@@ -66,7 +70,11 @@ img.center{
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   text-decoration: #333;
-  opacity: .8;
+  /*opacity: .8;*/
+}
+.contactbox h2{
+  text-decoration: bold;
+  text-align: center;
 }
 .contact{
   display: inline-block;
