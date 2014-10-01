@@ -28,6 +28,17 @@ body{
   margin-top: 20px;
   text-decoration: underline;
 }
+.blogListTitle{
+  font-size: 18px;
+  text-decoration: underline;
+  margin-bottom: -16px;
+}
+.readMore{
+  font-size: 12px;
+  color: #00A69C;
+  font-weight: bold;
+}
+
 .about{
   padding-left: 20px;
   padding-right: 20px;
@@ -43,7 +54,7 @@ body{
 }
 
 .about h2{
-  text-decoration: bold;
+  font-weight: bold;
   text-align: center;
 
 }
@@ -73,7 +84,7 @@ img.center{
   /*opacity: .8;*/
 }
 .contactbox h2{
-  text-decoration: bold;
+  font-weight: bold;
   text-align: center;
 }
 .contact{
@@ -110,7 +121,7 @@ img.center{
 }
 
 #projectInfo h2{
-  text-decoration: bold;
+  font-weight: bold;
   text-align: center;
 }
 .projectLeft{
@@ -196,6 +207,13 @@ a:hover{
 a:visited{
   color: black;
   }
+.readMore a{
+  font-size: 12px;
+  color:#00A69C;
+}
+.readMore a:hover{
+  color:#0066FF;
+}
 
 /*#wrapper{
   text-align: center;
