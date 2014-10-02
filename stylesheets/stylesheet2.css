@@ -141,9 +141,11 @@ img.project{
 }
 .projectLeft p{
   margin-left: 20px;
+  margin-top: -10px;
 }
 .projectRight p{
   margin-left: 80px;
+  margin-top: -10px;
 }
 
 .photoCaption{
@@ -193,6 +195,7 @@ code {
   display: block;
   position: relative;
   font-size: 12px;
+  /*clear:all;*/
 }
 a:link{
   color: black;
