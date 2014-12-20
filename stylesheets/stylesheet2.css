@@ -43,7 +43,7 @@ body{
   padding-left: 20px;
   padding-right: 20px;
   margin-bottom: 40px;
-  width: 700px;
+  width: 800px;
   margin-left: auto;
   margin-right: auto;
   font-family: 'Lato', sans-serif;
@@ -54,15 +54,23 @@ body{
 }
 
 .about h2{
-  font-weight: bold;
+  float: right;
+  width: 450px;
   text-align: center;
+  padding-top: 15%;
 
 }
+.about p{
+  float: right;
+  width: 450px;
+}
 img.selfie{
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
+  /*display: block;*/
+ /* margin-right: auto;
+  margin-left: auto;*/
   margin-top: 30px;
+  float: left;
+  margin-bottom: 20px;
 }
 img.center{
   display: block;
@@ -195,6 +203,7 @@ code {
   display: block;
   position: relative;
   font-size: 12px;
+  clear: both;
   /*clear:all;*/
 }
 a:link{
