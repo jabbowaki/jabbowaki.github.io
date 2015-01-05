@@ -127,6 +127,14 @@ img.center{
   text-decoration: #333;
   opacity: .8;
 }
+.projectLeft h3{
+  display: inline-block;
+  margin-bottom: -20px;
+}
+img.octocat{
+  margin-bottom: -3px;
+  padding-left: 10px;
+}
 
 img.project{
   border: 1px black solid;
@@ -137,11 +145,27 @@ img.project{
 display:block;
 float: left;
 position: absolute;
+width: 435px;
+}
+.projectLeft p{
+  width: 425px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .projectRight{
   display:block;
   float: right;
   position: relative;
+  width: 435px;
+}
+.projectRight h3{
+  display: inline-block;
+  margin-bottom: -20px;
+}
+.projectRight p{
+  width: 425px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .photoCaption{
