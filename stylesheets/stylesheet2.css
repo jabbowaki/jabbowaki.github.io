@@ -112,14 +112,13 @@ img.center{
   font-family:'Lato', sans-serif;
   font-size: 16px;
   opacity: .8;
-
 }
 #projectInfo{
   margin-top: 40px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
-  width: 600px;
+  width: 900px;
   margin-left: auto;
   margin-right: auto;
   opacity: .66;
@@ -129,32 +128,20 @@ img.center{
   opacity: .8;
 }
 
-#projectInfo h2{
-  font-weight: bold;
-  text-align: center;
-}
-.projectLeft{
-display:block;
-float: left;
-margin-right: 40px;
-position: absolute;
-}
 img.project{
   border: 1px black solid;
   display: block;
+}
+
+.projectLeft{
+display:block;
+float: left;
+position: absolute;
 }
 .projectRight{
   display:block;
   float: right;
   position: relative;
-}
-.projectLeft p{
-  margin-left: 20px;
-  margin-top: -10px;
-}
-.projectRight p{
-  margin-left: 80px;
-  margin-top: -10px;
 }
 
 .photoCaption{
