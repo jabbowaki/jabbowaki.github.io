@@ -2,9 +2,8 @@ body{
   background-color: white;
 }
 #banner{
-  border-bottom: 2px black solid;
   text-align: center;
-  font-family: 'Abril Fatface', cursive;
+  font-family: Arial, cursive;
   font-size: 40px;
   color:black;
 }
