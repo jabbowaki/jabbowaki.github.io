@@ -1,0 +1,75 @@
+body {
+  font-family: 'Oswald', san-serif;
+}
+
+#banner {
+  text-align: center;
+  font-size: 4em;
+}
+
+#footer p{
+  display: inline;
+  float:left;
+  font-size: 1.25em;
+}
+
+.footer-logo {
+  height: 50px;
+  float:right;
+}
+
+#center-text {
+  margin:auto;
+  width: 60%;
+  margin-bottom: 5%;
+  font-size: 1.5em;
+}
+
+#bio-photo {
+  width: 300px;
+  height:300px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+a {
+  color: black;
+}
+a:hover{
+  color:gray;
+}
+
+@media (max-width: 600px) {
+    #banner {
+      font-size: 3em;
+    }
+
+    #center-text {
+      padding-top: 20px;
+      width: 80%;
+      text-align: justify;
+    }
+
+    #footer p {
+      display: block;
+      text-align: center;
+      float: none;
+    }
+
+    #bio-photo{
+      height:250px;
+      width: auto;
+    }
+    .footer-logo {
+      float: none;
+      left: 50%;
+      height: 80px;
+    }
+
+    #three-images {
+      padding-top: 20px;
+      text-align: center;
+    }
+}
